@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-for-qrcode {
+
+    background-color: hsl(212, 45%, 89%);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+
+.wrapper {
+    background-color: hsl(0, 0%, 100%);
+    width: 60vw;
+    margin: auto;
+    padding: 10px;
+    height: 50vh;
+}
+
+.wrapper h2 {
+    font-weight: 700;
+}
+
+.wrapper img {
+    height: 300px;
+    border-radius: 10px;
+    min-width: 400px;
+    margin: auto;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
