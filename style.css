@@ -1,40 +1,52 @@
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+font-family: 'Outfit';
+width: 100%;
+height: 100vh ;
+margin: 0 auto;
+font-size: 15px;
 }
-.container-for-qrcode {
 
+.container-for-qrcode {
+    position:relative;
+    top: 15vh;
     background-color: hsl(212, 45%, 89%);
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:auto;
+    width: 1440px;
+    height: 70%;
+    margin: auto;
 }
 
 
 .wrapper {
     background-color: hsl(0, 0%, 100%);
-    width: 60vw;
+    padding-top: 14px;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 20%;
     margin: auto;
-    padding: 10px;
-    height: 50vh;
-}
-
-.wrapper h2 {
-    font-weight: 700;
+    height: 75%;
+    border-radius: 20px;
+    text-align: center; 
+    border-color:hsl(218, 44%, 22%);
 }
 
 .wrapper img {
     height: 300px;
     border-radius: 10px;
-    min-width: 400px;
+    display: block;
     margin: auto;
+    width: 98%;
 }
-p {
-    font-size: 15px;
-    font-weight: 400;
+
+.wrapper h2 {
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper p {
+
+    color: hsl(216, 15%, 48%);
+    width: 280px;
+    margin: auto;
 }
