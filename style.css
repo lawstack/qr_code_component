@@ -1,18 +1,19 @@
 
 body {
 font-family: 'Outfit';
-width: 100%;
-height: 946px ;
-margin: 0 auto;
+width: 100vw;
+height: 947px;
 font-size: 15px;
+margin: 0;
+position: relative;
 }
 
 .container-for-qrcode {
     position:relative;
     top: 10%;
     background-color: hsl(212, 45%, 89%);
-    width: 1440px;
-    height: 80%;
+    max-width: 1440px;
+    min-height: 757px;
     margin: auto;
     box-shadow: 1px 1px 25px 1px hsl(218, 44%, 22%);
 }
@@ -20,21 +21,21 @@ font-size: 15px;
 
 .wrapper {
     position: relative;
-    top: 100px;
+    top: 120px;
     background-color: hsl(0, 0%, 100%);
     padding-top: 15px;
     padding-left:10px;
     padding-right: 10px;
-    width: 20%;
+    max-width: 288px;
     margin: auto;
-    height: 65%;
+    height: 478px;
     border-radius: 20px;
     text-align: center; 
     border-color:hsl(218, 44%, 22%);
 }
 
 .wrapper img {
-    height: 300px;
+    height: 290px;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -42,7 +43,7 @@ font-size: 15px;
 }
 
 .wrapper h2 {
-    width: 295px;
+    max-width: 295px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,7 +55,13 @@ font-size: 15px;
     margin: auto;
 }
 
-@media screen and (max-width: 375px) {
+.attribution {
+    position: relative; 
+    top: 98px; 
+    margin: auto; 
+    width: 300px;
+}
+@media only screen and (max-width: 375px) {
 
     body {
         height: 100vh;
@@ -63,15 +70,29 @@ font-size: 15px;
     .container-for-qrcode {
         position: relative;
         margin: 0;
-        width: 100%;
+        width: 100vw;
         top:0;
-        height: 812px;
+        height: 100vh;
     }
 
     .wrapper {
         position: relative;
         top: 145px;
-        width: 80%;
-        height: 60%;
+        min-width: 299px;
+        min-height: 487px;
+        font-size: 13.5px;
+    }
+
+    .wrapper h2 {
+        width: 260px;
+    }
+
+    .wrapper p {
+        width: 250px;
+    }
+
+    .attribution {
+        position: relative;
+        top:0;
     }
 }
