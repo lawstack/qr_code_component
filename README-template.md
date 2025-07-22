@@ -22,8 +22,8 @@ This project involves designing a QR code component using HTML and CSS. The goal
 
 ### Screenshot
 
-![desktop](./solution/Qr code component (desktop).jpg)
-![mobile](./solution/Qr code component (mobile).jpg)
+![desktop](solution/Qr%20code%20component%20(desktop).jpg)
+![mobile](solution/Qr%20code%20component%20(mobile).jpgpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
