@@ -21,9 +21,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 This project involves designing a QR code component using HTML and CSS. The goal is to create a simple interface that displays a QR code in a clean and responsive design. In this project, it will be ensured that the layout of the QR code is presentable and well-organized on mobile devices and computers.
 
 ### Screenshot
-
+Desktop design
 ![desktop](solution/Qr%20code%20component%20(desktop).jpg)
-![mobile](solution/Qr%20code%20component%20(mobile).jpgpg)
+
+Mobile design
+![mobile](solution/Qr%20code%20component%20(mobile).jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
